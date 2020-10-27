@@ -17,7 +17,7 @@ void loop() {
  Serial.print("number of button pushes: ");
  Serial.println(buttonPushCounter);
  } else {
- Serial.println("off");
+ Serial.println("ON");
  }
  delay(50);
  }
